@@ -6,7 +6,6 @@
 	<groupId>io.yadnyesh</groupId>
 	<artifactId>sample-spring-cloud-netflix</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
 	
 	<name>sample-spring-cloud-netflix</name>
 	<description>Demo project for Spring Boot</description>
@@ -45,7 +44,7 @@
 		<!--</plugins>-->
 	<!--</build>-->
 	
-	<!--<packaging>pom</packaging>-->
+	<packaging>pom</packaging>
 	<!--<modules>-->
 		<!--<module>sample-discovery-service</module>-->
 		<!--<module>sample-client-service</module>-->
