@@ -4,21 +4,19 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>io.yadnyesh</groupId>
-	<artifactId>eureka-server</artifactId>
+	<artifactId>sample-spring-cloud-netflix</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	
-	<name>eureka-server</name>
+	<name>sample-spring-cloud-netflix</name>
 	<description>Demo project for Spring Boot</description>
 	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
-		<artifactId>sample-spring-cloud-netflix</artifactId>
-		<!--<artifactId>spring-boot-starter-parent</artifactId>-->
-		<version>1.0-SNAPSHOT</version>
-		<!--<relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.0.4.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<artifactId>sample-discovery-service</artifactId>
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -27,21 +25,16 @@
 	</properties>
 	
 	<dependencies>
-		<!--<dependency>-->
-			<!--<groupId>org.springframework.boot</groupId>-->
-			<!--<artifactId>spring-boot-starter-web</artifactId>-->
-		<!--</dependency>-->
-		
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-eureka-server</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 		
-		<!--<dependency>-->
-			<!--<groupId>org.springframework.boot</groupId>-->
-			<!--<artifactId>spring-boot-starter-test</artifactId>-->
-			<!--<scope>test</scope>-->
-		<!--</dependency>-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 	
 	<build>
