@@ -13,4 +13,6 @@ public class ClientController {
 	
 	@Autowired
 	private DiscoveryClient discoveryClient;
+	
+	
 }
