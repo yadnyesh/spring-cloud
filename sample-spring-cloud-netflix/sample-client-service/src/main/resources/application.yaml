@@ -2,7 +2,7 @@ spring:
   application:
     name: client-service
 server:
-  address: ${PORT:8081}
+  port: ${PORT:8081}
 
 eureka:
   client:
